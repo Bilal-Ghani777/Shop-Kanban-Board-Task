@@ -117,3 +117,36 @@ body{
 .hide{
     display: none;
 }
+@media (max-width: 600px){
+    body{
+        padding: 12px;
+    }
+    #heading{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .Kanban_Board{
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .Col{
+        min-height: 260px;
+        padding: 12px;
+    }
+    .innerCol{
+        height: auto;
+        max-height: 300px;
+    }
+    .headings{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .btn_Tasks{
+        width: 100%;
+        margin: 14px 0;
+        padding: 12px;
+    }
+    #ClientsINFO{
+        margin: 12px 4%;
+    }
+}
