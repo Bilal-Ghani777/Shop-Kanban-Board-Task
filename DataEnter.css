@@ -1,0 +1,110 @@
+
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #e0f7f7;
+    font-family: Arial, sans-serif;
+    color: #2f3e3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 20px;
+}
+
+.Main{
+    width: 100%;
+    max-width: 440px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#Heading{
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(9, 199, 199);
+}
+
+.MainBox{
+    padding: 0;
+}
+
+.DataEnterCenter{
+    padding: 30px 32px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.DataEnterCenter p{
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #2f7a7a;
+}
+
+.data{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid lightskyblue;
+    background-color: white;
+    font-size: 14px;
+    color: #2f3e3e;
+}
+
+.data:focus{
+    border-color: rgb(9, 199, 199);
+    outline: none;
+}
+
+.status{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid lightskyblue;
+    background-color: white;
+    font-size: 14px;
+    color: #2f3e3e;
+}
+
+.btn{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: lightgreen;
+    color: #1f4a1f;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #7fd67f;
+}
+
+#btnBack{
+    display: block;
+    width: calc(100% - 64px);
+    margin: 0 32px 25px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#btnBack:hover{
+    background-color: palevioletred;
+    color: white;
+}

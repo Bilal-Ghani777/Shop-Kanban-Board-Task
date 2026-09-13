@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <h1 id="heading">SHOP MANAGEMNET SYSTEM</h1>
+    
+    <div class="Kanban_Board">
+
+
+       <div class="Col"><div class="headings" id="headTM" >Task Manage </div><hr>
+       <center>
+        <button class="btn_Tasks" onclick="window.location='DataEnter.html'" id="btn_AddTask">Add Task </button><br>
+        <button class="btn_Tasks" id="btn_RemoveTask"  onclick="RemoveUser()">Remove Task </button><br>
+        <button class="btn_Tasks" onclick="window.location='Update.html'" id="btn_UpdateTask">Update Task </button><br>
+        </center>
+    
+      </div> 
+
+
+      <div class="Col" id="todo">
+        <div class="headings" id="headTODO">TO-DO </div><hr>
+        <div class="innerCol classTodo"  >
+        
+        </div>
+      </div>
+
+
+      <div class="Col"><div class="headings headings-js" >Progress</div><hr>
+      <div class="innerCol classProgress" >
+       
+        </div>
+    
+    </div>
+
+
+      <div class="Col"><div class="headings" id="headDone">Done </div><hr>
+
+      <div class="innerCol classDone" data-done="classDone">
+      
+       </div>
+    </div>
+    </div>
+    
+    <script type="module" src="Script.js" defer ></script>
+   
+</body>
+</html>
